@@ -8,10 +8,17 @@
 */
 
 // Add your code right below, good luck!
+const firstName = "Carlos";
+const lastName = "Stevenson";
+const thisYear = 1965;
+const birthYear = 1947;
 
+const greeting = "Hello! My name is " + firstName + " " + lastName + " " + "and I am " + (thisYear - birthYear) + " " + "years old.";
 
+console.log(greeting);
 
-
+const fullName = greeting.slice(18, 34);
+const age = Number(greeting.slice(44, 46));
 
 // Do not change this
 module.exports = {
